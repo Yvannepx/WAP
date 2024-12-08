@@ -38,20 +38,28 @@ public class ContainerAnimation : MonoBehaviour
 
     private IEnumerator TriggerAnimationWithCondition()
     {
-        yield return new WaitForSeconds(6f); // Wait for 6 seconds
+        yield return new WaitForSeconds(6f); // Wait for 6 seconds to trigger the animation
 
         // Check if the potion combination is correct
         if (IsCorrectCombination())
         {
-            // Trigger the animation based on the target color if correct
             Debug.Log("Correct combination. Triggering target color animation.");
             TriggerAnimationBasedOnTargetColor(gameController.targetColor);
+
+            // Wait for an additional 11 seconds before showing the win UI
+            yield return new WaitForSeconds(5f);
+            gameController.ShowYouWinUI(); // Show "You Win" UI after the delay
+            mAnimator.SetTrigger("TrTrophyWin");
+            mAnimator.SetTrigger("TrRibbonWin");
         }
         else
         {
-            // Trigger the machine error animation if combination is incorrect
             Debug.Log("Incorrect combination. Triggering machine error animation.");
             TriggerMachineErrorAnimation();
+
+            // Wait for an additional 11 seconds before showing the lose UI
+            yield return new WaitForSeconds(5f);
+            gameController.ShowYouLostUI(); // Show "You Lost" UI after the delay
         }
     }
 

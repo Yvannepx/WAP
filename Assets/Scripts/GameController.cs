@@ -43,6 +43,11 @@ public class GameController : MonoBehaviour
 
     public string targetColor;
 
+    public GameObject youWinCanvas; // Reference to the "You Win" UI Canvas
+    public GameObject youLostCanvas; // Reference to the "You Lost" UI Canvas
+
+
+
     private void Start()
     {
         targetColor = ChooseRandomTargetColor();
@@ -207,15 +212,37 @@ public class GameController : MonoBehaviour
         int incorrectLeft = unsmashedPotions.Count(potion => otherColors.Except(correctColors).Contains(potion));
 
         if (correctLeft == 2 && incorrectLeft == 0)
-            resultText.text = "Success Rate: 100%! You got it! Go to the next round!";
-        else if (correctLeft == 1 && incorrectLeft == 0)
-            resultText.text = "Success Rate: 50%! You're half close :o try again!";
-        else if (correctLeft == 0 || (correctLeft == 2 && incorrectLeft == 1))
-            resultText.text = "Success Rate: 0%! C'mon whack a potion, Try Again!";
-        else
         {
-            int successRate = (correctLeft * 100) / (correctLeft + incorrectLeft);
-            resultText.text = $"Success Rate: {successRate}%!";
+            resultText.text = "Success Rate: 100%! You got it! Go to the next round!";
+        }
+        else if (correctLeft == 1 && incorrectLeft == 0 || correctLeft == 1 && incorrectLeft == 1)
+        {
+            resultText.text = "Success Rate: 50%! You're half close :o try again!";
+        }
+        else if (correctLeft == 0 || (correctLeft == 2 && incorrectLeft == 1))
+        {
+            resultText.text = "Success Rate: 0%! C'mon whack a potion, Try Again!";
+        }
+        //else
+        //{
+        //    int successRate = (correctLeft * 100) / (correctLeft + incorrectLeft);
+        //    resultText.text = $"Success Rate: {successRate}%!";
+        //}
+    }
+    public void ShowYouWinUI()
+    {
+        // Assuming you have a reference to your "You Win" UI Canvas
+        if (youWinCanvas != null)
+        {
+            youWinCanvas.SetActive(true); // Show the "You Win" UI
+        }
+    }
+    public void ShowYouLostUI()
+    {
+        // Assuming you have a reference to your "You Win" UI Canvas
+        if (youLostCanvas != null)
+        {
+            youLostCanvas.SetActive(true); // Show the "You Lost" UI
         }
     }
 
