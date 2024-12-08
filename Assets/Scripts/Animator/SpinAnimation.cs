@@ -42,10 +42,8 @@
                     
                     StartCoroutine(TriggerLeverWithDelay());  // Start the coroutine for delayed TrLever trigger
                     hasTriggered = true; // Mark as triggered to prevent multiple activations
-
-
-                 StartCoroutine(TriggerLoadingWithDelay()); // Start the coroutine for delayed TrLoading trigger
-            }
+                    StartCoroutine(TriggerLoadingWithDelay()); // Start the coroutine for delayed TrLoading trigger
+                }
             }
 
             // Debugging: Check if the spin animation is currently playing

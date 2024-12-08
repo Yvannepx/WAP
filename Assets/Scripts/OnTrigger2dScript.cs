@@ -102,7 +102,7 @@ public class OnTrigger2dScript : MonoBehaviour
             for (int i = 1; i < hammerSprites.Length; i++)
             {
                 hammerRenderer.sprite = hammerSprites[i];
-                yield return new WaitForSeconds(0.01f); // Adjust time between frames
+                yield return new WaitForSeconds(0.05f); // Adjust time between frames
             }
         }
         else
@@ -111,7 +111,7 @@ public class OnTrigger2dScript : MonoBehaviour
             for (int i = hammerSprites.Length - 1; i >= 0; i--)
             {
                 hammerRenderer.sprite = hammerSprites[i];
-                yield return new WaitForSeconds(0.01f); // Adjust time between frames
+                yield return new WaitForSeconds(0.05f); // Adjust time between frames
             }
         }
     }
