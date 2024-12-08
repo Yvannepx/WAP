@@ -2090,7 +2090,7 @@ GameObject:
   - component: {fileID: 1518672074}
   - component: {fileID: 1518672073}
   - component: {fileID: 1518672075}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hammer
   m_TagString: Hammer
   m_Icon: {fileID: 0}
@@ -2140,7 +2140,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 100
   m_Sprite: {fileID: 8269358547458769857, guid: 329d79c5ce5bdbe4cabf391e3a8a48eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2160,12 +2160,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518672069}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 3.565, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -509, y: -636.435, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1789326460}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1518672073
 MonoBehaviour:
@@ -2865,6 +2865,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 279393228}
+  - {fileID: 1518672072}
   - {fileID: 1663892309}
   - {fileID: 922078158}
   - {fileID: 1813265724}
@@ -3884,7 +3885,6 @@ SceneRoots:
   - {fileID: 681407468}
   - {fileID: 1802534522}
   - {fileID: 1789326460}
-  - {fileID: 1518672072}
   - {fileID: 832017902}
   - {fileID: 158226420}
   - {fileID: 1144897616}

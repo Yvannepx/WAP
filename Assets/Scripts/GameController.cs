@@ -55,19 +55,27 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        // Set a random target color and update the UI
-        targetColor = ChooseRandomTargetColor();
-        targetColorText.text = $"{targetColor}";
-        SetTargetColorImage(targetColor);
+        // Check if a color is selected in GameData (it should be set in DifficultySelector)
+        if (!string.IsNullOrEmpty(GameData.SelectedColor))
+        {
+            string selectedColor = GameData.SelectedColor;
 
-        // Randomize spawn points for potions, pipes, and lights
-        RandomizeSpawnPoints();
-        SpawnPotions();
-        SpawnPipes();
-        SpawnLights();
+            // Set the target color and update the UI
+            SetTargetColor(selectedColor);
 
-        // Initialize the list of unsmashed potions
-        unsmashedPotions = new List<string>(potionsRemaining);
+            // Randomize spawn points for potions, pipes, and lights
+            RandomizeSpawnPoints();
+            SpawnPotions();
+            SpawnPipes();
+            SpawnLights();
+
+            // Initialize the list of unsmashed potions
+            unsmashedPotions = new List<string>(potionsRemaining);
+        }
+        else
+        {
+            Debug.LogError("No color selected! Make sure the color is set in DifficultySelector.");
+        }
     }
 
     private void Update()
@@ -96,11 +104,12 @@ public class GameController : MonoBehaviour
         }
     }
 
-    // Randomly choose a target color from the available combinations
-    public string ChooseRandomTargetColor()
+    public void SetTargetColor(string color)
     {
-        List<string> targetColors = new List<string>(colorCombinations.Keys);
-        return targetColors[Random.Range(0, targetColors.Count)];
+        targetColor = color;
+        targetColorText.text = $"{targetColor}"; // Update the text UI
+        SetTargetColorImage(targetColor); // Update the image UI
+        Debug.Log($"Game started with target color: {targetColor}");
     }
 
     // Set the sprite for the target color

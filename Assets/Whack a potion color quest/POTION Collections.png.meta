@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 2740afe6b39da0b4c8f237fc46491716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6797830657394190555
+    second: "POTION\LCollections_0"
+  - first:
+      213: 6296969593421182594
+    second: "POTION\LCollections_1"
+  - first:
+      213: 5762150400618940002
+    second: "POTION\LCollections_2"
+  - first:
+      213: 1549645839981804516
+    second: "POTION\LCollections_3"
+  - first:
+      213: -2203534365839658629
+    second: "POTION\LCollections_4"
+  - first:
+      213: -6864868699885492909
+    second: "POTION\LCollections_5"
+  - first:
+      213: 9107979971188889682
+    second: "POTION\LCollections_6"
+  - first:
+      213: -792701598669077483
+    second: "POTION\LCollections_7"
+  - first:
+      213: 7163932763532449289
+    second: "POTION\LCollections_8"
+  - first:
+      213: 4131056058583339381
+    second: "POTION\LCollections_9"
+  - first:
+      213: 6528220401028559256
+    second: "POTION\LCollections_10"
+  - first:
+      213: -7838158814375946856
+    second: "POTION\LCollections_11"
+  - first:
+      213: -5114861878054725656
+    second: "POTION\LCollections_12"
+  - first:
+      213: 2461999177232149115
+    second: "POTION\LCollections_13"
+  - first:
+      213: 3959657404297967403
+    second: "POTION\LCollections_14"
+  - first:
+      213: -2094932310640102012
+    second: "POTION\LCollections_15"
+  - first:
+      213: 2186698630673123781
+    second: "POTION\LCollections_16"
+  - first:
+      213: 3923412506914940680
+    second: "POTION\LCollections_17"
+  - first:
+      213: -4861318943425157781
+    second: "POTION\LCollections_18"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "POTION\LCollections_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2460
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52752c6980149a1a0800000000000000
+      internalID: -6797830657394190555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_1"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 285
+        width: 192
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2863e418b74536750800000000000000
+      internalID: 6296969593421182594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_2"
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 285
+        width: 181
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266444b924547ff40800000000000000
+      internalID: 5762150400618940002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_3"
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 451
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebf6cb5ea2718510800000000000000
+      internalID: 1549645839981804516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_4"
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 285
+        width: 193
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71f2c94b297b61e0800000000000000
+      internalID: -2203534365839658629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_5"
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 285
+        width: 193
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355a0a10a461bb0a0800000000000000
+      internalID: -6864868699885492909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_6"
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 285
+        width: 87
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2581614178b066e70800000000000000
+      internalID: 9107979971188889682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_7"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 193
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514027e8812cff4f0800000000000000
+      internalID: -792701598669077483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_8"
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 193
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906522d64e66b6360800000000000000
+      internalID: 7163932763532449289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_9"
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 145
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571d5171995745930800000000000000
+      internalID: 4131056058583339381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_10"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 145
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891f3c2edd5e89a50800000000000000
+      internalID: 6528220401028559256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_11"
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 146
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89556003614493390800000000000000
+      internalID: -7838158814375946856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_12"
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 0
+        width: 193
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e75c5bb83c5409b0800000000000000
+      internalID: -5114861878054725656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_13"
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 0
+        width: 181
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ae93c1537ca2220800000000000000
+      internalID: 2461999177232149115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_14"
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 165
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27fc671e6783f630800000000000000
+      internalID: 3959657404297967403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_15"
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 0
+        width: 193
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485fec3b92e4de2e0800000000000000
+      internalID: -2094932310640102012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_16"
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 0
+        width: 192
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9ca18a1d6b85e10800000000000000
+      internalID: 2186698630673123781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_17"
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 0
+        width: 177
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8076dfd43e2c27630800000000000000
+      internalID: 3923412506914940680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "POTION\LCollections_18"
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 0
+        width: 87
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6524456d20298cb0800000000000000
+      internalID: -4861318943425157781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 51505efc4b070a449891e8a8c665b251
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "POTION\LCollections_0": -6797830657394190555
+      "POTION\LCollections_1": 6296969593421182594
+      "POTION\LCollections_10": 6528220401028559256
+      "POTION\LCollections_11": -7838158814375946856
+      "POTION\LCollections_12": -5114861878054725656
+      "POTION\LCollections_13": 2461999177232149115
+      "POTION\LCollections_14": 3959657404297967403
+      "POTION\LCollections_15": -2094932310640102012
+      "POTION\LCollections_16": 2186698630673123781
+      "POTION\LCollections_17": 3923412506914940680
+      "POTION\LCollections_18": -4861318943425157781
+      "POTION\LCollections_2": 5762150400618940002
+      "POTION\LCollections_3": 1549645839981804516
+      "POTION\LCollections_4": -2203534365839658629
+      "POTION\LCollections_5": -6864868699885492909
+      "POTION\LCollections_6": 9107979971188889682
+      "POTION\LCollections_7": -792701598669077483
+      "POTION\LCollections_8": 7163932763532449289
+      "POTION\LCollections_9": 4131056058583339381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
