@@ -277,4 +277,13 @@ public class GameController : MonoBehaviour
         }
         return new List<string>();
     }
+
+    public void GoToMainMenu() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.DeleteAll();
+        Debug.Log("All player progress has been reset!");
+
+        // Load the main menu scene
+        SceneManager.LoadScene("WAPMainMenu");
+    }
 }
