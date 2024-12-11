@@ -4,10 +4,18 @@ using TMPro;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
+using System.Collections;
 
 public class GameController : MonoBehaviour
 {
     public MyMovementTouchpad touchpadController;
+    public Image WinBG;
+    public Image WintrophyAnim;
+    public Image WinribbonAnim;
+    public Image LoseBG;
+    public Image LosetrophyAnim;
+    public Image LoseribbonAnim;
+    public Button menuButton;
 
     // Reference to the potion, pipe, and light prefabs and spawn points
     public GameObject[] potionPrefabs;
@@ -72,6 +80,7 @@ public class GameController : MonoBehaviour
         {
             Debug.LogError("No color selected! Make sure the color is set in DifficultySelector.");
         }
+        
     }
 
     private void Update()
@@ -238,17 +247,66 @@ public class GameController : MonoBehaviour
 
         if (correctLeft == 2 && incorrectLeft == 0)
         {
-            resultText.text = "Success Rate: 100%!";
+            resultText.text = "100%!";
         }
         else if (correctLeft == 1 && incorrectLeft == 0 || correctLeft == 1 && incorrectLeft == 1)
         {
-            resultText.text = "Success Rate: 50%!";
+            resultText.text = "50%!";
         }
         else if (correctLeft == 0 || (correctLeft == 1 && incorrectLeft == 2))
         {
-            resultText.text = "Success Rate: 0%!";
+            resultText.text = "0%!";
         }
+
+        if (resultText.text == "100%!")
+        {
+            Invoke(nameof(DisplayWinUI), 10f);
+        } else if (resultText.text == "0%!" || resultText.text == "50%!"){
+            Invoke(nameof(DisplayLoseUI), 10f);
+        }
+        
+
     }
+
+    private void DisplayWinUI()
+{
+    // Show the Win UI elements
+    WinBG.gameObject.SetActive(true);
+    WintrophyAnim.gameObject.SetActive(true);
+    WinribbonAnim.gameObject.SetActive(true);
+
+    // Trigger animations if they have an Animator component
+    if (WintrophyAnim.GetComponent<Animator>() != null)
+    {
+        WintrophyAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
+    }
+
+    if (WinribbonAnim.GetComponent<Animator>() != null)
+    {
+        WinribbonAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
+    }
+    menuButton.gameObject.SetActive(true);
+}
+
+private void DisplayLoseUI()
+{
+    // Show the Lose UI elements
+    LoseBG.gameObject.SetActive(true);
+    LosetrophyAnim.gameObject.SetActive(true);
+    LoseribbonAnim.gameObject.SetActive(true);
+
+    // Trigger animations if they have an Animator component
+    if (LosetrophyAnim.GetComponent<Animator>() != null)
+    {
+        LosetrophyAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
+    }
+
+    if (LoseribbonAnim.GetComponent<Animator>() != null)
+    {
+        LoseribbonAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
+    }
+    menuButton.gameObject.SetActive(true);
+}
 
     // Get the correct potion combinations for the target color
     public List<string> GetCorrectPotionCombinations(string targetColor)

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vivid violet_0: -8922286503404738778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

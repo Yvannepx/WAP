@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pistachio_0: -1009201341790344754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -14,7 +14,7 @@ TagManager:
   - Water
   - UI
   - TOP
-  - 
+  - WIN BG
   - 
   - 
   - 
@@ -48,6 +48,12 @@ TagManager:
     locked: 0
   - name: TOP
     uniqueID: 1257031885
+    locked: 0
+  - name: RESULTBG
+    uniqueID: 2088926977
+    locked: 0
+  - name: RESULT CONTENT
+    uniqueID: 301009669
     locked: 0
   m_RenderingLayers:
   - Default

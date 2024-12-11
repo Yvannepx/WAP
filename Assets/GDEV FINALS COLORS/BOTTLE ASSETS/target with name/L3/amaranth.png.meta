@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      amaranth_0: 5741099415519375980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
