@@ -9,4 +9,9 @@ public class ResetGame : MonoBehaviour
         // Reload the current scene by using the active scene index
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    public void ResetGameSceneMM()
+    {
+        // Reload the current scene by using the active scene index
+        SceneManager.LoadScene("PickAColor");
+    }
 }

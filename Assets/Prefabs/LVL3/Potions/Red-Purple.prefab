@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -330074199412920462}
   - component: {fileID: 2283671815439380317}
   - component: {fileID: 1112249412602766265}
-  - component: {fileID: 3292367036797746372}
+  - component: {fileID: 5620380997537921559}
   m_Layer: 0
   m_Name: Red-Purple
   m_TagString: Untagged
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potionColor: 
   gameController: {fileID: 0}
---- !u!114 &3292367036797746372
+--- !u!114 &5620380997537921559
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

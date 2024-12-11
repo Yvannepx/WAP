@@ -3,8 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadVideoManagerScene()
+    public void PickAColor()
     {
-        SceneManager.LoadScene("VideoAnimation"); // Replace with your actual scene name
+        SceneManager.LoadScene("PickAColor");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

@@ -59,7 +59,7 @@ public class OnTrigger2dScriptLEVEL2 : MonoBehaviour
             {
                 // Instantiate the appropriate explosion effect at the potion's position
                 Instantiate(explosionEffects[potionColor], potionBehavior.transform.position, Quaternion.identity);
-                Debug.Log($"Potion {potionColor} triggeorange!");
+                Debug.Log($"Potion {potionColor} triggered!");
             }
             else
             {

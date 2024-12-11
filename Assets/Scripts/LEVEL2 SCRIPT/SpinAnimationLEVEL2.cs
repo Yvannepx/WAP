@@ -30,8 +30,8 @@
                 string potionColor = GetPotionColorFromName(prefabName);
 
                 // Debugging: Print the list of smashed potions and the current color
-                //Debug.Log("Smashed Potions: " + string.Join(", ", gameController.smashedPotions));
-                //Debug.Log("Current Potion Color: " + potionColor);
+                Debug.Log("Smashed Potions: " + string.Join(", ", gameController.smashedPotions));
+                Debug.Log("Current Potion Color: " + potionColor);
 
                 // Only trigger animation if the color is NOT in the smashedPotions list
                 if (!gameController.smashedPotions.Contains(potionColor) && gameController.gameTime <= 0 && !hasTriggered)

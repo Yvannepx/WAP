@@ -24,7 +24,7 @@ public class GameControllerLEVEL2 : MonoBehaviour
     public Sprite[] targetColorImages;
 
     // Game time and text for the timer
-    public float gameTime = 20f;
+    public float gameTime = 5f;
     public TMP_Text gameText;
 
     // A list that tracks the remaining potions and their colors
@@ -48,10 +48,6 @@ public class GameControllerLEVEL2 : MonoBehaviour
     // Target color for the current round
     public string targetColor;
     public HashSet<string> passedColors = new HashSet<string>(); // Track passed target colors
-
-    // Canvas for showing the win or lose UI
-    public GameObject youWinCanvas;
-    public GameObject youLostCanvas;
 
     private void Start()
     {
@@ -252,20 +248,6 @@ public class GameControllerLEVEL2 : MonoBehaviour
         {
             resultText.text = "Success Rate: 0%!";
         }
-    }
-
-    // Show the Win UI and stop the game
-    public void ShowYouWinUI()
-    {
-        youWinCanvas.SetActive(true);
-        Time.timeScale = 0; // Pause the game
-    }
-
-    // Show the Lose UI and stop the game
-    public void ShowYouLostUI()
-    {
-        youLostCanvas.SetActive(true);
-        Time.timeScale = 0; // Pause the game
     }
 
     // Get the correct potion combinations for the target color
