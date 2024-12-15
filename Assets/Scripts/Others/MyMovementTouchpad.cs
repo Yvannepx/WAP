@@ -20,13 +20,17 @@ public class MyMovementTouchpad : MonoBehaviour
 
     private void Start()
     {
-        instance = this;
-        ResetMousePosition();
+        
+        // Save the initial position of the object
+        originalPosition = transform.position;
+        
+        // instance = this;
+        // ResetMousePosition();
 
-        if (targetobject != null)
-        {
-            defaultPosition = targetobject.transform.position; // Store the default position
-        }
+        // if (targetobject != null)
+        // {
+        //     defaultPosition = targetobject.transform.position; // Store the default position
+        // }
     }
 
     public void ResetMousePosition()
@@ -71,18 +75,52 @@ public class MyMovementTouchpad : MonoBehaviour
 
     public void ActivateTouchpad()
     {
-        ResetMousePosition();
-        istouchpadactive = true;
+        // ResetMousePosition();
+        // istouchpadactive = true;
+        
+        // Calculate the difference between the object's position and the mouse position
+        difference = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position;
     }
 
     public void DeactivateTouchpad()
     {
-        istouchpadactive = false;
+        // istouchpadactive = false;
 
-        // Return the hammer to its default position
-        if (targetobject != null)
-        {
-            targetobject.transform.position = defaultPosition;
-        }
+        // // Return the hammer to its default position
+        // if (targetobject != null)
+        // {
+        //     targetobject.transform.position = defaultPosition;
+        // }
+
+        
+        // Move the object while dragging
+        transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - difference;
+    }
+
+    private Vector2 difference = Vector2.zero;
+    private Vector2 originalPosition; // Store the original position
+
+    private void OnMouseDown()
+    {
+        // Calculate the difference between the object's position and the mouse position
+        difference = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position;
+    }
+
+    private void OnMouseDrag()
+    {
+        // Move the object while dragging
+        transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - difference;
+    }
+
+    private void OnMouseUp()
+    {
+        // Reset the object to its original position
+        transform.position = originalPosition;
+    }
+
+    public void DisableTouchpad()
+    {
+        // Reset the object to its original position
+        transform.position = originalPosition;
     }
 }

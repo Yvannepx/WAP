@@ -38,18 +38,24 @@ public class ContainerAnimation : MonoBehaviour
 
     private IEnumerator TriggerAnimationWithCondition()
     {
-        yield return new WaitForSeconds(6f); // Wait for 6 seconds to trigger the animation
+        yield return new WaitForSeconds(8f); // Wait for 6 seconds to trigger the animation
 
         // Check if the potion combination is correct
         if (IsCorrectCombination())
         {
             Debug.Log("Correct combination. Triggering target color animation.");
             TriggerAnimationBasedOnTargetColor(gameController.targetColor);
+
+            yield return new WaitForSeconds(.5f);
+            AudioManager.instance.PlayPotionBrewSound();
         }
         else
         {
             Debug.Log("Incorrect combination. Triggering machine error animation.");
             TriggerMachineErrorAnimation();
+            
+            yield return new WaitForSeconds(.5f);
+            AudioManager.instance.PlayMachineErrorSound();
         }
     }
 

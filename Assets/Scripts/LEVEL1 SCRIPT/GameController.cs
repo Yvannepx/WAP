@@ -8,14 +8,46 @@ using System.Collections;
 
 public class GameController : MonoBehaviour
 {
+
+    public int countdownTime; // Set this in the Inspector (e.g., 3 for a 3-second countdown)
+    public Text countdownDisplay; // Reference the Text object in your scene
+    public GameController gameController;
+    public Image darkPanel;
+
+    IEnumerator CountdownToStart()
+    {
+        while (countdownTime > 0)
+        {
+            countdownDisplay.text = countdownTime.ToString(); // Display the countdown number
+            yield return new WaitForSeconds(1f); // Wait for 1 second
+            countdownTime--; // Decrease the countdown number
+        }
+        darkPanel.gameObject.SetActive(false);
+
+        // Once the countdown reaches 0
+        countdownDisplay.text = "GO!"; // Display "GO!"
+        yield return new WaitForSeconds(1f); // Wait for a second before hiding the text
+
+        countdownDisplay.gameObject.SetActive(false); // Hide the countdown display
+    }
+
+
+    private bool hasPlayedWinSound = false;
+    private bool hasPlayedLoseSound = false;
+    private bool hasPlayedLoseHalfSound = false;
+
     public MyMovementTouchpad touchpadController;
     public Image WinBG;
+    public Image WinglowAnim;
     public Image WintrophyAnim;
-    public Image WinribbonAnim;
     public Image LoseBG;
     public Image LosetrophyAnim;
-    public Image LoseribbonAnim;
-    public Button menuButton;
+    public Image LosetrophyAnimHALF;
+    public Button nextLvlButton;
+    public Button tryAgainBtn;
+    public Button LosemenuButton;
+    public SpriteRenderer hammer;
+    
 
     // Reference to the potion, pipe, and light prefabs and spawn points
     public GameObject[] potionPrefabs;
@@ -32,7 +64,7 @@ public class GameController : MonoBehaviour
     public Sprite[] targetColorImages;
 
     // Game time and text for the timer
-    public float gameTime = 20f;
+    public float gameTime = 5f;
     public TMP_Text gameText;
 
     // A list that tracks the remaining potions and their colors
@@ -56,9 +88,12 @@ public class GameController : MonoBehaviour
     // Target color for the current round
     public string targetColor;
     public HashSet<string> passedColors = new HashSet<string>(); // Track passed target colors
-    
+    internal static object instance;
+
     private void Start()
     {
+        StartCoroutine(CountdownToStart());
+        
         // Check if a color is selected in GameData (it should be set in DifficultySelector)
         if (!string.IsNullOrEmpty(GameData.SelectedColor))
         {
@@ -93,20 +128,12 @@ public class GameController : MonoBehaviour
         {
             gameTime = 0;
             EndGame();
-            DisableTouchpad();
+            touchpadController.istouchpadactive = false; 
+            touchpadController.DisableTouchpad();
         }
 
         // Update the timer text
         gameText.text = Mathf.CeilToInt(gameTime).ToString();
-    }
-
-    private void DisableTouchpad()
-    {
-        // Disable the touchpad controls once the game ends
-        if (touchpadController != null)
-        {
-            touchpadController.DeactivateTouchpad();
-        }
     }
 
     public void SetTargetColor(string color)
@@ -253,16 +280,18 @@ public class GameController : MonoBehaviour
         {
             resultText.text = "50%!";
         }
-        else if (correctLeft == 0 || (correctLeft == 1 && incorrectLeft == 2))
+        else
         {
             resultText.text = "0%!";
         }
 
         if (resultText.text == "100%!")
         {
-            Invoke(nameof(DisplayWinUI), 10f);
-        } else if (resultText.text == "0%!" || resultText.text == "50%!"){
-            Invoke(nameof(DisplayLoseUI), 10f);
+            Invoke(nameof(DisplayWinUI), 11f);
+        } else if (resultText.text == "50%!"){
+            Invoke(nameof(DisplayLoseUIHalf), 11f);
+        } else if (resultText.text == "0%!"){
+            Invoke(nameof(DisplayLoseUI), 1f);
         }
         
 
@@ -270,43 +299,71 @@ public class GameController : MonoBehaviour
 
     private void DisplayWinUI()
 {
+    if (!hasPlayedWinSound)  // Check if the win sound has already been played
+    {
+        AudioManager.instance.PlayWinSound();
+        hasPlayedWinSound = true;  // Set flag to true after sound is played
+    }
+
     // Show the Win UI elements
     WinBG.gameObject.SetActive(true);
     WintrophyAnim.gameObject.SetActive(true);
-    WinribbonAnim.gameObject.SetActive(true);
+    WinglowAnim.gameObject.SetActive(true);
+    nextLvlButton.gameObject.SetActive(true);
 
     // Trigger animations if they have an Animator component
     if (WintrophyAnim.GetComponent<Animator>() != null)
     {
         WintrophyAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
     }
-
-    if (WinribbonAnim.GetComponent<Animator>() != null)
+    if (WinglowAnim.GetComponent<Animator>() != null)
     {
-        WinribbonAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
+        WinglowAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
     }
-    menuButton.gameObject.SetActive(true);
 }
 
 private void DisplayLoseUI()
 {
+    if (!hasPlayedLoseSound)  // Check if the lose sound has already been played
+    {
+        AudioManager.instance.PlayloseWHOLESound();
+        hasPlayedLoseSound = true;  // Set flag to true after sound is played
+    }
+
     // Show the Lose UI elements
     LoseBG.gameObject.SetActive(true);
     LosetrophyAnim.gameObject.SetActive(true);
-    LoseribbonAnim.gameObject.SetActive(true);
+    tryAgainBtn.gameObject.SetActive(true);
+    LosemenuButton.gameObject.SetActive(true);
 
     // Trigger animations if they have an Animator component
     if (LosetrophyAnim.GetComponent<Animator>() != null)
     {
         LosetrophyAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
     }
-
-    if (LoseribbonAnim.GetComponent<Animator>() != null)
-    {
-        LoseribbonAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
-    }
-    menuButton.gameObject.SetActive(true);
 }
+
+private void DisplayLoseUIHalf()
+{
+    if (!hasPlayedLoseHalfSound)  // Check if the half lose sound has already been played
+    {
+        AudioManager.instance.PlayloseHALFSound();
+        hasPlayedLoseHalfSound = true;  // Set flag to true after sound is played
+    }
+
+    // Show the Lose UI elements
+    LoseBG.gameObject.SetActive(true);
+    LosetrophyAnimHALF.gameObject.SetActive(true);
+    tryAgainBtn.gameObject.SetActive(true);
+    LosemenuButton.gameObject.SetActive(true);
+
+    // Trigger animations if they have an Animator component
+    if (LosetrophyAnim.GetComponent<Animator>() != null)
+    {
+        LosetrophyAnim.GetComponent<Animator>().SetTrigger("PlayAnimation");
+    }
+}
+
 
     // Get the correct potion combinations for the target color
     public List<string> GetCorrectPotionCombinations(string targetColor)
@@ -317,4 +374,18 @@ private void DisplayLoseUI()
         }
         return new List<string>();
     }
+
+    public void PickAColorWpassLevel()
+    {
+        int currentLevel = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentLevel >= PlayerPrefs.GetInt("levelsUnlocked"))
+        {
+            PlayerPrefs.SetInt("levelsUnlocked", currentLevel + 1);
+        }
+
+        Debug.Log("LEVEL " + PlayerPrefs.GetInt("levelsUnlocked") + " UNLOCKED");
+        SceneManager.LoadScene("PickAColor");
+    }
+
 }

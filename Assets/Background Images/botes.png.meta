@@ -1,0 +1,2496 @@
+fileFormatVersion: 2
+guid: 53080b3f6d1c152478a54bcd102dbf73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3847983616607619170
+    second: botes_0
+  - first:
+      213: 1308952288542536227
+    second: botes_1
+  - first:
+      213: -4920660972224687100
+    second: botes_2
+  - first:
+      213: -8742246909621732654
+    second: botes_3
+  - first:
+      213: 8335884693325745639
+    second: botes_4
+  - first:
+      213: -6575289293163406706
+    second: botes_5
+  - first:
+      213: -630151856219505321
+    second: botes_6
+  - first:
+      213: -7886448490613569904
+    second: botes_7
+  - first:
+      213: -6960864414416841151
+    second: botes_8
+  - first:
+      213: -4445867830787738911
+    second: botes_9
+  - first:
+      213: 2366246660492450497
+    second: botes_10
+  - first:
+      213: 7598480418462747198
+    second: botes_11
+  - first:
+      213: -7402049211442597213
+    second: botes_12
+  - first:
+      213: -718622084605720086
+    second: botes_13
+  - first:
+      213: -21079929646400831
+    second: botes_14
+  - first:
+      213: -1646967161424488203
+    second: botes_15
+  - first:
+      213: 3413369511113130328
+    second: botes_16
+  - first:
+      213: 3495960850974307985
+    second: botes_17
+  - first:
+      213: -3996456260538620800
+    second: botes_18
+  - first:
+      213: -3869202440118691189
+    second: botes_19
+  - first:
+      213: 955277581610392724
+    second: botes_20
+  - first:
+      213: -4399203381316725482
+    second: botes_21
+  - first:
+      213: 4381967232479495181
+    second: botes_22
+  - first:
+      213: -4498326043455298057
+    second: botes_23
+  - first:
+      213: -9097253360318615811
+    second: botes_24
+  - first:
+      213: -5850012987155042928
+    second: botes_25
+  - first:
+      213: -7834627314926324841
+    second: botes_26
+  - first:
+      213: 3147909081186616555
+    second: botes_27
+  - first:
+      213: -1070202717684571783
+    second: botes_28
+  - first:
+      213: -9217156591529435314
+    second: botes_29
+  - first:
+      213: 8588839118897030886
+    second: botes_30
+  - first:
+      213: 9111763227499078556
+    second: botes_31
+  - first:
+      213: 6553660358203357816
+    second: botes_32
+  - first:
+      213: -5751503136270902842
+    second: botes_33
+  - first:
+      213: -6905886598273436020
+    second: botes_34
+  - first:
+      213: -4574647577124429968
+    second: botes_35
+  - first:
+      213: 3350981007706560740
+    second: botes_36
+  - first:
+      213: 6829827139580475312
+    second: botes_37
+  - first:
+      213: -7218326972222917749
+    second: botes_38
+  - first:
+      213: -611143963733600750
+    second: botes_39
+  - first:
+      213: -6934369946596913037
+    second: botes_40
+  - first:
+      213: 3532028922800281506
+    second: botes_41
+  - first:
+      213: -92466077074014673
+    second: botes_42
+  - first:
+      213: -894187026045057916
+    second: botes_43
+  - first:
+      213: 736462388822281936
+    second: botes_44
+  - first:
+      213: -8149759688291528402
+    second: botes_45
+  - first:
+      213: -3479345894766931308
+    second: botes_46
+  - first:
+      213: 6765751732463922723
+    second: botes_47
+  - first:
+      213: -3891641440976791018
+    second: botes_48
+  - first:
+      213: 5415865973566746851
+    second: botes_49
+  - first:
+      213: 8162282940569279841
+    second: botes_50
+  - first:
+      213: 6132159095150724705
+    second: botes_51
+  - first:
+      213: -3208119030921593458
+    second: botes_52
+  - first:
+      213: 2094150604047837845
+    second: botes_53
+  - first:
+      213: 3344373180736804449
+    second: botes_54
+  - first:
+      213: -1813831499641479020
+    second: botes_55
+  - first:
+      213: 8422413450021850803
+    second: botes_56
+  - first:
+      213: -7054460861267321281
+    second: botes_57
+  - first:
+      213: -8915075142071043957
+    second: botes_58
+  - first:
+      213: -7158044060009611057
+    second: botes_59
+  - first:
+      213: 167122875345973774
+    second: botes_60
+  - first:
+      213: 8256668171688939755
+    second: botes_61
+  - first:
+      213: -4306694551278321751
+    second: botes_62
+  - first:
+      213: 4415520737299111814
+    second: botes_63
+  - first:
+      213: 7460523914636895433
+    second: botes_64
+  - first:
+      213: 3736677766226476601
+    second: botes_65
+  - first:
+      213: 2339341938170802113
+    second: botes_66
+  - first:
+      213: 5713909940306469274
+    second: botes_67
+  - first:
+      213: -8349343849575703764
+    second: botes_68
+  - first:
+      213: -1021432376317061966
+    second: botes_69
+  - first:
+      213: -3385458306362619764
+    second: botes_70
+  - first:
+      213: -1540721119791796599
+    second: botes_71
+  - first:
+      213: -210071067212230124
+    second: botes_72
+  - first:
+      213: -739721294293297071
+    second: botes_73
+  - first:
+      213: 1636310648494891907
+    second: botes_74
+  - first:
+      213: -3259950663093910232
+    second: botes_75
+  - first:
+      213: 5750489881415792577
+    second: botes_76
+  - first:
+      213: 3660759729219202593
+    second: botes_77
+  - first:
+      213: -7754484686057995524
+    second: botes_78
+  - first:
+      213: -3848322776774288226
+    second: botes_79
+  - first:
+      213: -70359061964255241
+    second: botes_80
+  - first:
+      213: -8136473165291931568
+    second: botes_81
+  - first:
+      213: 5420036016839086229
+    second: botes_82
+  - first:
+      213: 4072155450123936932
+    second: botes_83
+  - first:
+      213: 8355315934353564882
+    second: botes_84
+  - first:
+      213: -8097248235644918607
+    second: botes_85
+  - first:
+      213: -4519338487390929323
+    second: botes_86
+  - first:
+      213: -8715708826349562559
+    second: botes_87
+  - first:
+      213: 1062625984493122801
+    second: botes_88
+  - first:
+      213: 2916318325380369692
+    second: botes_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: botes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 419
+        width: 130
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2688b6936b8c66530800000000000000
+      internalID: 3847983616607619170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 130
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322338adb255a2210800000000000000
+      internalID: 1308952288542536227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 425
+        width: 104
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4045b62aaec46bbb0800000000000000
+      internalID: -4920660972224687100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da7d3d01cc4da680800000000000000
+      internalID: -8742246909621732654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 427
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed0c4296f20fa370800000000000000
+      internalID: 8335884693325745639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ad099a931efb4a0800000000000000
+      internalID: -6575289293163406706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dbb77b9304147f0800000000000000
+      internalID: -630151856219505321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0960099c1e4bd8290800000000000000
+      internalID: -7886448490613569904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 427
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146d60102ba066f90800000000000000
+      internalID: -6960864414416841151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e27f8b53ca1d42c0800000000000000
+      internalID: -4445867830787738911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca5b910dc896d020800000000000000
+      internalID: 2366246660492450497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 427
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3acb3f9ea9337960800000000000000
+      internalID: 7598480418462747198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f00eb573a64990800000000000000
+      internalID: -7402049211442597213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 427
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9435f7501f606f0800000000000000
+      internalID: -718622084605720086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 427
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca39896aeb15bff0800000000000000
+      internalID: -21079929646400831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_15
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f85f8ab71cc429e0800000000000000
+      internalID: -1646967161424488203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_16
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 427
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8510c0d4c79be5f20800000000000000
+      internalID: 3413369511113130328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 427
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196fefe1fd5248030800000000000000
+      internalID: 3495960850974307985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 427
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084a536843cb988c0800000000000000
+      internalID: -3996456260538620800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_19
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 427
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a96a071e4dd4ac0800000000000000
+      internalID: -3869202440118691189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 130
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c18c136e3d14d00800000000000000
+      internalID: 955277581610392724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 313
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6155be925d3e2f2c0800000000000000
+      internalID: -4399203381316725482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_22
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 313
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0487553bffdfcc30800000000000000
+      internalID: 4381967232479495181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f565ffeb4cb291c0800000000000000
+      internalID: -4498326043455298057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfeea72a44010c180800000000000000
+      internalID: -9097253360318615811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 288
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09da331de2490dea0800000000000000
+      internalID: -5850012987155042928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_26
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7937e3a77ffc54390800000000000000
+      internalID: -7834627314926324841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_27
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4ca5981ae9fab20800000000000000
+      internalID: 3147909081186616555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971e0c66c40e521f0800000000000000
+      internalID: -1070202717684571783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fdcb22ae4161080800000000000000
+      internalID: -9217156591529435314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 288
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e626da4cafa13770800000000000000
+      internalID: 8588839118897030886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_31
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93ac84116c737e70800000000000000
+      internalID: 9111763227499078556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_32
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a354d7f5743fa50800000000000000
+      internalID: 6553660358203357816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9170ece5e8e20b0800000000000000
+      internalID: -5751503136270902842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_34
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86f7c25abc5920a0800000000000000
+      internalID: -6905886598273436020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 288
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f95e024469380c0800000000000000
+      internalID: -4574647577124429968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_36
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 288
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e81e65e873118e20800000000000000
+      internalID: 3350981007706560740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_37
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b73404f89b68ce50800000000000000
+      internalID: 6829827139580475312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_38
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b833804fcd953db90800000000000000
+      internalID: -7218326972222917749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_39
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 288
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216d80f8dc7c487f0800000000000000
+      internalID: -611143963733600750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_40
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 288
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37052fff54b24cf90800000000000000
+      internalID: -6934369946596913037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_41
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 288
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a79aef7799440130800000000000000
+      internalID: 3532028922800281506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2eba32c79e77bef0800000000000000
+      internalID: -92466077074014673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 130
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48442dd23a53793f0800000000000000
+      internalID: -894187026045057916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 163
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de003404a0783a00800000000000000
+      internalID: 736462388822281936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_45
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 163
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21d5962ebc36ee80800000000000000
+      internalID: -8149759688291528402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_46
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49214b3d751e6bfc0800000000000000
+      internalID: -3479345894766931308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 138
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32eeefbaa57c4ed50800000000000000
+      internalID: 6765751732463922723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_48
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 138
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a936d6abc1ef9c0800000000000000
+      internalID: -3891641440976791018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_49
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e032919865092b40800000000000000
+      internalID: 5415865973566746851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 138
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ddcdcb611464170800000000000000
+      internalID: 8162282940569279841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_51
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 138
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166c3ac153ec91550800000000000000
+      internalID: 6132159095150724705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_52
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 138
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d7fbc1db87a73d0800000000000000
+      internalID: -3208119030921593458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_53
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 138
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ae07c01eaef0d10800000000000000
+      internalID: 2094150604047837845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_54
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 138
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166192a40b9996e20800000000000000
+      internalID: 3344373180736804449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_55
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 138
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490a4757cd9f3d6e0800000000000000
+      internalID: -1813831499641479020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_56
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 138
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be4600b86c62e470800000000000000
+      internalID: 8422413450021850803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_57
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ed34a0935891e90800000000000000
+      internalID: -7054460861267321281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_58
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88b0f2746a474480800000000000000
+      internalID: -8915075142071043957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 138
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc048843ad489ac90800000000000000
+      internalID: -7158044060009611057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_60
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 138
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02b6d2ae5db15200800000000000000
+      internalID: 167122875345973774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_61
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be01bc9d4f3959270800000000000000
+      internalID: 8256668171688939755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 130
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aff1fa9f1c8b34c0800000000000000
+      internalID: -4306694551278321751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_63
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 26
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f951557b4174d30800000000000000
+      internalID: 4415520737299111814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_64
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 26
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c42d3a09fa198760800000000000000
+      internalID: 7460523914636895433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e770071a85bd330800000000000000
+      internalID: 3736677766226476601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_66
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf28d03913077020800000000000000
+      internalID: 2339341938170802113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_67
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a916a8e21d2eb4f40800000000000000
+      internalID: 5713909940306469274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_68
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b927a610c212c80800000000000000
+      internalID: -8349343849575703764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_69
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4d98f5aa423d1f0800000000000000
+      internalID: -1021432376317061966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_70
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c884c577b9f6401d0800000000000000
+      internalID: -3385458306362619764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e2edcfd424e9ae0800000000000000
+      internalID: -1540721119791796599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_72
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4125a353a7da51df0800000000000000
+      internalID: -210071067212230124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_73
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1581bdce66bfbb5f0800000000000000
+      internalID: -739721294293297071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_74
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3832ab18dd755b610800000000000000
+      internalID: 1636310648494891907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_75
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8250df4d42452c2d0800000000000000
+      internalID: -3259950663093910232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_76
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7344a6418ddcf40800000000000000
+      internalID: 5750489881415792577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_77
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e6a240491adc230800000000000000
+      internalID: 3660759729219202593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_78
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf28e475349826490800000000000000
+      internalID: -7754484686057995524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_79
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cd255e2d2089ac0800000000000000
+      internalID: -3848322776774288226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_80
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff04e05ec8060ff0800000000000000
+      internalID: -70359061964255241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_81
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058b64ad3c0751f80800000000000000
+      internalID: -8136473165291931568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_82
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590548d6a06d73b40800000000000000
+      internalID: 5420036016839086229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_83
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4eec28ec3338830800000000000000
+      internalID: 4072155450123936932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_84
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d42e4de29b04f370800000000000000
+      internalID: 8355315934353564882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_85
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4e93871abc0af80800000000000000
+      internalID: -8097248235644918607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_86
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55eff4717951841c0800000000000000
+      internalID: -4519338487390929323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_87
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14592bf00059b0780800000000000000
+      internalID: -8715708826349562559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_88
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4ffcee3b43fbe00800000000000000
+      internalID: 1062625984493122801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botes_89
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d424cc018d87820800000000000000
+      internalID: 2916318325380369692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: be6d48c3107f7ef41823ec4c7292e5f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      botes_0: 3847983616607619170
+      botes_1: 1308952288542536227
+      botes_10: 2366246660492450497
+      botes_11: 7598480418462747198
+      botes_12: -7402049211442597213
+      botes_13: -718622084605720086
+      botes_14: -21079929646400831
+      botes_15: -1646967161424488203
+      botes_16: 3413369511113130328
+      botes_17: 3495960850974307985
+      botes_18: -3996456260538620800
+      botes_19: -3869202440118691189
+      botes_2: -4920660972224687100
+      botes_20: 955277581610392724
+      botes_21: -4399203381316725482
+      botes_22: 4381967232479495181
+      botes_23: -4498326043455298057
+      botes_24: -9097253360318615811
+      botes_25: -5850012987155042928
+      botes_26: -7834627314926324841
+      botes_27: 3147909081186616555
+      botes_28: -1070202717684571783
+      botes_29: -9217156591529435314
+      botes_3: -8742246909621732654
+      botes_30: 8588839118897030886
+      botes_31: 9111763227499078556
+      botes_32: 6553660358203357816
+      botes_33: -5751503136270902842
+      botes_34: -6905886598273436020
+      botes_35: -4574647577124429968
+      botes_36: 3350981007706560740
+      botes_37: 6829827139580475312
+      botes_38: -7218326972222917749
+      botes_39: -611143963733600750
+      botes_4: 8335884693325745639
+      botes_40: -6934369946596913037
+      botes_41: 3532028922800281506
+      botes_42: -92466077074014673
+      botes_43: -894187026045057916
+      botes_44: 736462388822281936
+      botes_45: -8149759688291528402
+      botes_46: -3479345894766931308
+      botes_47: 6765751732463922723
+      botes_48: -3891641440976791018
+      botes_49: 5415865973566746851
+      botes_5: -6575289293163406706
+      botes_50: 8162282940569279841
+      botes_51: 6132159095150724705
+      botes_52: -3208119030921593458
+      botes_53: 2094150604047837845
+      botes_54: 3344373180736804449
+      botes_55: -1813831499641479020
+      botes_56: 8422413450021850803
+      botes_57: -7054460861267321281
+      botes_58: -8915075142071043957
+      botes_59: -7158044060009611057
+      botes_6: -630151856219505321
+      botes_60: 167122875345973774
+      botes_61: 8256668171688939755
+      botes_62: -4306694551278321751
+      botes_63: 4415520737299111814
+      botes_64: 7460523914636895433
+      botes_65: 3736677766226476601
+      botes_66: 2339341938170802113
+      botes_67: 5713909940306469274
+      botes_68: -8349343849575703764
+      botes_69: -1021432376317061966
+      botes_7: -7886448490613569904
+      botes_70: -3385458306362619764
+      botes_71: -1540721119791796599
+      botes_72: -210071067212230124
+      botes_73: -739721294293297071
+      botes_74: 1636310648494891907
+      botes_75: -3259950663093910232
+      botes_76: 5750489881415792577
+      botes_77: 3660759729219202593
+      botes_78: -7754484686057995524
+      botes_79: -3848322776774288226
+      botes_8: -6960864414416841151
+      botes_80: -70359061964255241
+      botes_81: -8136473165291931568
+      botes_82: 5420036016839086229
+      botes_83: 4072155450123936932
+      botes_84: 8355315934353564882
+      botes_85: -8097248235644918607
+      botes_86: -4519338487390929323
+      botes_87: -8715708826349562559
+      botes_88: 1062625984493122801
+      botes_89: 2916318325380369692
+      botes_9: -4445867830787738911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

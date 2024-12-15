@@ -6,20 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/WAPMainMenu.unity
-    guid: 51585f7a521e35747ac9e28dd1f73467
-  - enabled: 1
     path: Assets/Scenes/PickAColor.unity
     guid: af2ad591723e87e49afca85301780b63
   - enabled: 1
-    path: Assets/Scenes/LVL1 GAME.unity
+    path: Assets/Scenes/LVL1.unity
     guid: 11e224782f90e6b4eb23e2b7c7627d56
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LVL3 GAME.unity
     guid: 56122d55bbecd56408200d06ecb3e0e5
   - enabled: 1
-    path: Assets/Scenes/LVL2 GAME.unity
-    guid: e9f3b1874178b934084deda89c5f2c4f
+    path: Assets/Scenes/WAPMainMenu.unity
+    guid: 51585f7a521e35747ac9e28dd1f73467
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
