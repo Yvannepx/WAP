@@ -11,9 +11,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LVL1.unity
     guid: 11e224782f90e6b4eb23e2b7c7627d56
-  - enabled: 0
-    path: Assets/Scenes/LVL3 GAME.unity
+  - enabled: 1
+    path: Assets/Scenes/LVL2.unity
+    guid: d5cc414e89855fd449d9a70d1abb782e
+  - enabled: 1
+    path: Assets/Scenes/LVL3.unity
+    guid: 43e5fa2bc13314e44a890be63ae1ea9e
+  - enabled: 1
+    path: Assets/Scenes/LVL4.unity
+    guid: 1c889c81bdb5d0d46854b88723190150
+  - enabled: 1
+    path: Assets/Scenes/LVL5.unity
+    guid: e585bbcf808a1e742ba0d61f6975ed7c
+  - enabled: 1
+    path: Assets/Scenes/LVL6.unity
+    guid: 3f39b27dd2e954e4384b0c6bbe65708b
+  - enabled: 1
+    path: Assets/Scenes/LVL7.unity
     guid: 56122d55bbecd56408200d06ecb3e0e5
+  - enabled: 1
+    path: Assets/Scenes/LVL8.unity
+    guid: 2c9d0fe9ecc49db41b1f8ec048a08847
+  - enabled: 1
+    path: Assets/Scenes/LVL9.unity
+    guid: ed3617a7205a330408dd0c202ed1cf76
+  - enabled: 1
+    path: Assets/Scenes/LVL10.unity
+    guid: 00fe73e55216c5d4d9923a1414f4afc4
+  - enabled: 1
+    path: Assets/Scenes/LVL11.unity
+    guid: b4ca47e4f0f9ea145abddefeed29844d
+  - enabled: 1
+    path: Assets/Scenes/LVL12.unity
+    guid: 9dde0a9f5a2e72e43927495394df444b
   - enabled: 1
     path: Assets/Scenes/WAPMainMenu.unity
     guid: 51585f7a521e35747ac9e28dd1f73467

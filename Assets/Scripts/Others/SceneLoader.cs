@@ -2,6 +2,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class SceneLoader : MonoBehaviour
 {
@@ -12,7 +15,13 @@ public class SceneLoader : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+    #if UNITY_EDITOR
+        Debug.Log("Exiting play mode in the Editor...");
+        EditorApplication.isPlaying = false; // Exits play mode in the Editor
+    #else
+        Debug.Log("Game is quitting...");
+        Application.Quit(); // Quits the application in a build
+    #endif
     }
 
     //FOR PAUSE

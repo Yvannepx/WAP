@@ -30,14 +30,16 @@
                 string potionColor = GetPotionColorFromName(prefabName);
 
                 // Debugging: Print the list of smashed potions and the current color
-                //Debug.Log("Smashed Potions: " + string.Join(", ", gameController.smashedPotions));
-                //Debug.Log("Current Potion Color: " + potionColor);
+                // Debug.Log("Smashed Potions: " + string.Join(", ", gameController.smashedPotions));
+                // Debug.Log("Current Potion Color: " + potionColor);
 
                 // Only trigger animation if the color is NOT in the smashedPotions list
                 if (!gameController.smashedPotions.Contains(potionColor) && gameController.gameTime <= 0 && !hasTriggered)
                 {
-                    mAnimator.SetTrigger("TrSpinning");
                     mAnimator.SetTrigger("TrDraining");
+                    // AudioManager.Instance.PlaySFX("drain");
+                    mAnimator.SetTrigger("TrSpinning");
+                    AudioManager.Instance.PlaySFX("spinning");
                     StartCoroutine(TriggerLightWithDelay());  // Start the coroutine for delayed TrLight trigger
                     
                     StartCoroutine(TriggerLeverWithDelay());  // Start the coroutine for delayed TrLever trigger
@@ -61,24 +63,27 @@
         private IEnumerator TriggerLightWithDelay()
         {
             yield return new WaitForSeconds(3f); // Wait for 3 seconds
+            AudioManager.Instance.PlaySFX("lights");
             mAnimator.SetTrigger("TrLight");
             Debug.Log("TrLight triggered after 3-second delay.");
+        }
+        
+        // Coroutine to trigger TrLever after a 3.5-second delay
+        private IEnumerator TriggerLeverWithDelay()
+        {
+            yield return new WaitForSeconds(3.5f); // Wait for 3.5 seconds
+            AudioManager.Instance.PlaySFX("lever");
+            mAnimator.SetTrigger("TrLever");
+            Debug.Log("TrLever triggered after 3.5-second delay.");
         }
 
         // Coroutine to trigger TrLoading after a 4-second delay
         private IEnumerator TriggerLoadingWithDelay()
         {
-            yield return new WaitForSeconds(4f); // Wait for 4 seconds
+            yield return new WaitForSeconds(4.5f); // Wait for 4 seconds
+            AudioManager.Instance.PlaySFX("loading");
             mAnimator.SetTrigger("TrLoading");
-            Debug.Log("TrLoading triggered after 4-second delay.");
-        }
-
-        // Coroutine to trigger TrLever after a 3.5-second delay
-        private IEnumerator TriggerLeverWithDelay()
-        {
-            yield return new WaitForSeconds(3.5f); // Wait for 3.5 seconds
-            mAnimator.SetTrigger("TrLever");
-            Debug.Log("TrLever triggered after 3.5-second delay.");
+            Debug.Log("TrLoading triggered after 4.5-second delay.");
         }
 
         // Helper method to extract the potion color from the prefab name

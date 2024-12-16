@@ -38,18 +38,24 @@ public class ContainerAnimationLEVEL3REAL : MonoBehaviour
 
     private IEnumerator TriggerAnimationWithCondition()
     {
-        yield return new WaitForSeconds(6f); // Wait for 6 seconds to trigger the animation
+        yield return new WaitForSeconds(8f); // Wait for 6 seconds to trigger the animation
 
         // Check if the potion combination is correct
         if (IsCorrectCombination())
         {
             Debug.Log("Correct combination. Triggering target color animation.");
             TriggerAnimationBasedOnTargetColor(gameController.targetColor);
+
+            yield return new WaitForSeconds(.7f);
+            AudioManager.Instance.PlaySFX("brew");
         }
         else
         {
             Debug.Log("Incorrect combination. Triggering machine error animation.");
             TriggerMachineErrorAnimation();
+            
+            yield return new WaitForSeconds(.5f);
+            AudioManager.Instance.PlaySFX("machineerror");
         }
     }
 
@@ -59,8 +65,8 @@ public class ContainerAnimationLEVEL3REAL : MonoBehaviour
         List<string> correctColors = gameController.GetCorrectPotionCombinations(gameController.targetColor);
 
         // Log the correct and smashed potions for debugging
-        Debug.Log("Correct Colors: " + string.Join(", ", correctColors));
-        Debug.Log("Smashed Potions: " + string.Join(", ", gameController.unsmashedPotions));
+        // Debug.Log("Correct Colors: " + string.Join(", ", correctColors));
+        // Debug.Log("Smashed Potions: " + string.Join(", ", gameController.unsmashedPotions));
 
         // Check if the smashed potions contain all the correct colors and no extra colors
         bool isCorrect = gameController.unsmashedPotions.Count == correctColors.Count &&

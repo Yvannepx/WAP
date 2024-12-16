@@ -87,7 +87,7 @@ public class OnTrigger2dScriptLEVEL3 : MonoBehaviour
             potionBehavior.DestroyInstantly();
 
             // Play the smash sound
-            PlaySmashSound();
+            AudioManager.Instance.PlaySFX("potionbreak");
 
             // Start the hammer animation to simulate the smashing effect (1 -> 4)
             isTriggering = true;

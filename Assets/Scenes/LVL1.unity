@@ -187,7 +187,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1789326460}
+  m_Father: {fileID: 1860823758}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1075,7 +1075,6 @@ GameObject:
   - component: {fileID: 447964127}
   - component: {fileID: 447964126}
   - component: {fileID: 447964125}
-  - component: {fileID: 447964124}
   m_Layer: 5
   m_Name: PRE-TIME Canvas
   m_TagString: Untagged
@@ -1083,18 +1082,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &447964124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447964123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31f3be1fdb1d40e4b93cf80b5d0b8e58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &447964125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,6 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db83ac40f1f098d41b247a99de7e8feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons: []
 --- !u!114 &470026976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1644,7 +1632,6 @@ GameObject:
   - component: {fileID: 681407470}
   - component: {fileID: 681407472}
   - component: {fileID: 681407473}
-  - component: {fileID: 681407474}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1885,19 +1872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db83ac40f1f098d41b247a99de7e8feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &681407474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 681407464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 679efd76d31a13149b93925099af4871, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 0}
+  buttons:
+  - {fileID: 483793776}
+  - {fileID: 2081601743}
+  - {fileID: 2040796217}
+  - {fileID: 1687904826}
 --- !u!1 &699975864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db83ac40f1f098d41b247a99de7e8feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons: []
 --- !u!1 &789677011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3666,7 +3646,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1789326460}
+  m_Father: {fileID: 1860823758}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -3685,6 +3665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db83ac40f1f098d41b247a99de7e8feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons: []
 --- !u!114 &1687904826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3943,7 +3924,6 @@ GameObject:
   - component: {fileID: 1789326463}
   - component: {fileID: 1789326462}
   - component: {fileID: 1789326461}
-  - component: {fileID: 1789326464}
   - component: {fileID: 1789326467}
   - component: {fileID: 1789326469}
   m_Layer: 0
@@ -3973,10 +3953,6 @@ RectTransform:
   - {fileID: 699975866}
   - {fileID: 1913083586}
   - {fileID: 483793775}
-  - {fileID: 14689223}
-  - {fileID: 2081601741}
-  - {fileID: 2040796215}
-  - {fileID: 1687904824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4047,18 +4023,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1789326464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789326459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af59ff2b623959e40b0e4327d071a77d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1789326467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4394,6 +4358,10 @@ RectTransform:
   m_Children:
   - {fileID: 1075565971}
   - {fileID: 712686306}
+  - {fileID: 14689223}
+  - {fileID: 2081601741}
+  - {fileID: 2040796215}
+  - {fileID: 1687904824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4593,7 +4561,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1789326460}
+  m_Father: {fileID: 1860823758}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -4612,6 +4580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db83ac40f1f098d41b247a99de7e8feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons: []
 --- !u!114 &2040796217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4873,7 +4842,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1789326460}
+  m_Father: {fileID: 1860823758}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -4892,6 +4861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db83ac40f1f098d41b247a99de7e8feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons: []
 --- !u!114 &2081601743
 MonoBehaviour:
   m_ObjectHideFlags: 0
