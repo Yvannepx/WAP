@@ -274,21 +274,29 @@ public class GameControllerLEVEL2 : MonoBehaviour
         {
             resultText.text = "100%!";
         }
-        else if (correctLeft == 1 && incorrectLeft == 0 || correctLeft == 1 && incorrectLeft == 1)
+        else if (correctLeft == 1 && incorrectLeft == 1)
         {
             resultText.text = "50%!";
+        } 
+        else if (correctLeft == 1 && incorrectLeft == 0)
+        {
+            resultText.text = "PIPTI%!";
         }
         else
         {
             resultText.text = "0%!";
         }
 
-        if (resultText.text == "100%!")
-        {
+        if (resultText.text == "100%!"){
             Invoke(nameof(DisplayWinUI), 11f);
-        } else if (resultText.text == "50%!"){
+        } 
+        else if (resultText.text == "50%!"){
             Invoke(nameof(DisplayLoseUIHalf), 11f);
-        } else {
+        } 
+        else if (resultText.text == "PIPTI%!"){
+            Invoke(nameof(DisplayLoseUIHalf), 1f);
+        } 
+        else {
             Invoke(nameof(DisplayLoseUI), 1f);
         }
     }
